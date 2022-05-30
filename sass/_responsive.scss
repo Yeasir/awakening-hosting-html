@@ -1,0 +1,90 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { }
+
+
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1499.98px) {
+  .sticky .navbar {
+    padding-left: 7%;
+  }
+}
+// Medium devices (tablets, less than 992px)
+@media (max-width: 1129.98px) {
+  .pricing-slider {
+    .col-12:hover {
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      padding: 0 5px;
+      margin: 0;
+    }
+  }
+  .sticky .navbar {
+    padding-left: 1%;
+  }
+
+}
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+  .footer-middle .footer-logo {
+    width: 100%;
+  }
+
+  .pricing-slider {
+    .col-12:hover {
+      -ms-transform: scale(1);
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      padding: 0 5px;
+      margin: 0;
+    }
+  }
+  h2 {
+    font-size: 36px;
+  }
+  .section-header-2 .section-header-title, .section-header-3 .section-header-title, .section-header-4 .section-header-title{
+    margin-top: 30px;
+    padding-left: 0;
+  }
+  .section-header-2 .section-header-title:before, .section-header-3 .section-header-title:before, .section-header-4 .section-header-title:before{
+    display: none;
+  }
+  .hero-banner .hero-content h2 {
+    font-size: 24px;
+  }
+  .team-member .team-info {
+    padding: 15px;
+  }
+  .sticky .navbar {
+    padding-left: 0;
+  }
+
+  .col-lg-4{
+    .profile-image {
+
+      .team {
+        height: 300px;
+        width: 280px;
+        margin: 0 auto;
+      }
+
+    }
+  }
+  .col-lg-3{
+    .profile-image {
+      .team {
+        height: 300px;
+        width: 280px;
+      }
+
+
+    }
+  }
+
+
+}

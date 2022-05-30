@@ -1,0 +1,45 @@
+$fontPath : "../css/fonts";
+@font-face {
+  font-family: 'NexaBold';
+  src: url('#{$fontPath}/NexaBold.eot');
+  src: url('#{$fontPath}/NexaBold.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}/NexaBold.svg#NexaLight') format('svg'),
+  url('#{$fontPath}/NexaBold.ttf') format('truetype'),
+  url('#{$fontPath}/NexaBold.woff') format('woff'),
+  url('#{$fontPath}/NexaBold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'US101';
+  src: url('#{$fontPath}/US101.eot');
+  src: url('#{$fontPath}/US101.eot?#iefix') format('embedded-opentype'),
+  url('#{$fontPath}/US101.svg#NexaLight') format('svg'),
+  url('#{$fontPath}/US101.ttf') format('truetype'),
+  url('#{$fontPath}/US101.woff') format('woff'),
+  url('#{$fontPath}/US101.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Futura Md BT';
+  src: url('#{$fontPath}/FuturaBT-Bold.woff2') format('woff2'),
+  url('#{$fontPath}/FuturaBT-Bold.woff') format('woff'),
+  url('#{$fontPath}/FuturaBT-Bold.ttf') format('truetype'),
+  url('#{$fontPath}/FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@import "bootstrap-variables";
+@import "slick";
+@import "slick-theme";
+@import "helpers";
+@import "style";
+@import "style1";
+@import "style2";
+@import "responsive";
+@import "responsive2";

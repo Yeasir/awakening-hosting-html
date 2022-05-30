@@ -1,0 +1,71 @@
+body {
+  min-width: 100px;
+  line-height: 30px;
+  font-weight: 300;
+  font-style: normal;
+  font-size: $base-font-size;
+  font-family: $Roboto;
+  background-color: $dark-black;
+  color: $white;
+}
+
+a,.btn {
+  cursor: pointer;
+  text-decoration: none;
+  font-style: normal;
+}
+a,.btn,.pricing-box,.btn:hover,.btn:before,.team-member,
+.team-member .profile-image img,.service-boxes,
+.pricing-slider .col-12,.single-help,
+.need-help .single-help .shape-icon{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  font-style: normal;
+  outline: none;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+h1 {
+  line-height: 36px;
+  font-style: normal;
+}
+
+h2 {
+  font-style: normal;
+  font-size: ceil($base-font-size*3.529); //60px
+  font-family: $Roboto;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: ceil($base-font-size*1.764); //30px
+  font-family: $Roboto;
+  font-style: normal;
+}
+
+h4 {
+  font-size: ceil($base-font-size*1.529); //26px
+  font-family: $Roboto;
+  font-style: normal;
+}
